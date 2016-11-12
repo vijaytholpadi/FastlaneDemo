@@ -3,34 +3,34 @@
   <testsuite name="fastlane.lanes">
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000489">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000467">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000205">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.00021">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: cocoapods" time="1.628505">
+      <testcase classname="fastlane.lanes" name="2: cocoapods" time="1.303077">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: increment_version_number" time="1.35581">
+      <testcase classname="fastlane.lanes" name="3: increment_version_number" time="0.975025">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: commit_version_bump" time="0.13844">
+      <testcase classname="fastlane.lanes" name="4: commit_version_bump" time="0.120871">
         
-          <failure message="/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:187:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:186:in `chdir'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:186:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:112:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/fast_file.rb:140:in `method_missing'&#10;Fastfile:34:in `block (2 levels) in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/lane_manager.rb:52:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:69:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane_core-0.55.0/lib/fastlane_core/ui/fastlane_runner.rb:38:in `run!'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:257:in `run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:31:in `start'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/cli_tools_distributor.rb:58:in `take_off'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/bin/fastlane:5:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Found unexpected uncommited changes in the working directory. Expected these files to have &#10;changed: &#10;FastlaneDemo.xcodeproj/project.pbxproj&#10;FastlaneDemo/Info.plist&#10;FastlaneDemoUITests/Info.plist.&#10;But found these actual changes: &#10;FastlaneDemo/Info.plist&#10;FastlaneDemoUITests/Info.plist&#10;fastlane/Fastfile&#10;fastlane/report.xml.&#10;Make sure you have cleaned up the build artifacts and &#10;are only left with the changed version files at this stage in your lane, and don't touch the &#10;working directory while your lane is running. You can also use the :force option to bypass this &#10;check, and always commit a version bump regardless of the state of the working directory." />
+          <failure message="/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:187:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:186:in `chdir'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:186:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:112:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/fast_file.rb:140:in `method_missing'&#10;Fastfile:34:in `block (2 levels) in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/lane_manager.rb:52:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:69:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane_core-0.55.0/lib/fastlane_core/ui/fastlane_runner.rb:38:in `run!'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/commander-4.4.0/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:257:in `run'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/commands_generator.rb:31:in `start'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/lib/fastlane/cli_tools_distributor.rb:58:in `take_off'&#10;/usr/local/lib/ruby/gems/2.3.0/gems/fastlane-1.107.0/bin/fastlane:5:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Found unexpected uncommited changes in the working directory. Expected these files to have &#10;changed: &#10;FastlaneDemo.xcodeproj/project.pbxproj&#10;FastlaneDemo/Info.plist&#10;FastlaneDemoUITests/Info.plist.&#10;But found these actual changes: &#10;FastlaneDemo/Info.plist&#10;FastlaneDemoUITests/Info.plist&#10;fastlane/report.xml&#10;FastlaneDemo.app.dSYM.zip&#10;FastlaneDemo.ipa.&#10;Make sure you have cleaned up the build artifacts and &#10;are only left with the changed version files at this stage in your lane, and don't touch the &#10;working directory while your lane is running. You can also use the :force option to bypass this &#10;check, and always commit a version bump regardless of the state of the working directory." />
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: slack" time="0.468844">
+      <testcase classname="fastlane.lanes" name="5: slack" time="0.62981">
         
       </testcase>
     
