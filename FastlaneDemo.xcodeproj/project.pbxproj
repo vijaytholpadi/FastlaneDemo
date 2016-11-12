@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26256FAD5FAFEBF9FF981463 /* libPods-FastlaneDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 854E995DBA24C8292BA144F4 /* libPods-FastlaneDemoUITests.a */; };
+		4439BF60C2E3E1894D84760B /* libPods-FastlaneDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DA3E549053DBC411D5D2D4 /* libPods-FastlaneDemo.a */; };
 		CDB540091DD6C81000F05E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB540081DD6C81000F05E73 /* main.m */; };
 		CDB5400C1DD6C81000F05E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB5400B1DD6C81000F05E73 /* AppDelegate.m */; };
 		CDB5400F1DD6C81000F05E73 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB5400E1DD6C81000F05E73 /* FirstViewController.m */; };
@@ -28,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		369CAD414E543E9EC37DFA13 /* Pods-FastlaneDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoUITests/Pods-FastlaneDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42853825073C0690535D1538 /* Pods-FastlaneDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemo/Pods-FastlaneDemo.release.xcconfig"; sourceTree = "<group>"; };
+		854E995DBA24C8292BA144F4 /* libPods-FastlaneDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastlaneDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DA3E549053DBC411D5D2D4 /* libPods-FastlaneDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastlaneDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AC8FA9CED99E75201F96DA /* Pods-FastlaneDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemoUITests/Pods-FastlaneDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1CC14706B2BEA1507933453 /* Pods-FastlaneDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastlaneDemo/Pods-FastlaneDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CDB540041DD6C81000F05E73 /* FastlaneDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB540081DD6C81000F05E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDB5400A1DD6C81000F05E73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4439BF60C2E3E1894D84760B /* libPods-FastlaneDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +66,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26256FAD5FAFEBF9FF981463 /* libPods-FastlaneDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37C03B617F06AFCD4764256C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC14706B2BEA1507933453 /* Pods-FastlaneDemo.debug.xcconfig */,
+				42853825073C0690535D1538 /* Pods-FastlaneDemo.release.xcconfig */,
+				91AC8FA9CED99E75201F96DA /* Pods-FastlaneDemoUITests.debug.xcconfig */,
+				369CAD414E543E9EC37DFA13 /* Pods-FastlaneDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDB53FFB1DD6C81000F05E73 = {
 			isa = PBXGroup;
 			children = (
 				CDB540061DD6C81000F05E73 /* FastlaneDemo */,
 				CDB540231DD6C81000F05E73 /* FastlaneDemoUITests */,
 				CDB540051DD6C81000F05E73 /* Products */,
+				37C03B617F06AFCD4764256C /* Pods */,
+				F7317B058C6B75B492364EDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +139,15 @@
 			path = FastlaneDemoUITests;
 			sourceTree = "<group>";
 		};
+		F7317B058C6B75B492364EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DA3E549053DBC411D5D2D4 /* libPods-FastlaneDemo.a */,
+				854E995DBA24C8292BA144F4 /* libPods-FastlaneDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +155,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB540291DD6C81000F05E73 /* Build configuration list for PBXNativeTarget "FastlaneDemo" */;
 			buildPhases = (
+				905609D686E5DC3A601BC6D6 /* [CP] Check Pods Manifest.lock */,
 				CDB540001DD6C81000F05E73 /* Sources */,
 				CDB540011DD6C81000F05E73 /* Frameworks */,
 				CDB540021DD6C81000F05E73 /* Resources */,
+				9850CB76DD0318754008F5D3 /* [CP] Embed Pods Frameworks */,
+				06C5B3D7C61ABD745E078B2E /* [CP] Copy Pods Resources */,
+				CD098AF71DD6EAF200C38CF2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -140,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDB5402C1DD6C81000F05E73 /* Build configuration list for PBXNativeTarget "FastlaneDemoUITests" */;
 			buildPhases = (
+				8607FD0542C292CA99A6E760 /* [CP] Check Pods Manifest.lock */,
 				CDB5401C1DD6C81000F05E73 /* Sources */,
 				CDB5401D1DD6C81000F05E73 /* Frameworks */,
 				CDB5401E1DD6C81000F05E73 /* Resources */,
+				E7E8C18D249C714164F70DA8 /* [CP] Embed Pods Frameworks */,
+				88C4182A04FC8FED39CFD9DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,6 +204,7 @@
 				TargetAttributes = {
 					CDB540031DD6C81000F05E73 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PRT6NHDX32;
 						ProvisioningStyle = Automatic;
 					};
 					CDB5401F1DD6C81000F05E73 = {
@@ -212,6 +252,112 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C5B3D7C61ABD745E078B2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemo/Pods-FastlaneDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8607FD0542C292CA99A6E760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88C4182A04FC8FED39CFD9DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoUITests/Pods-FastlaneDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905609D686E5DC3A601BC6D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9850CB76DD0318754008F5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemo/Pods-FastlaneDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD098AF71DD6EAF200C38CF2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5a4c97ff523a07f94aa4caad057d6c43f3f34ad1 f38ecf317e89383290ecf06e226b9d6513483202362e3b7374b24e42ae9df173";
+		};
+		E7E8C18D249C714164F70DA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastlaneDemoUITests/Pods-FastlaneDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDB540001DD6C81000F05E73 /* Sources */ = {
@@ -353,8 +499,10 @@
 		};
 		CDB5402A1DD6C81000F05E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CC14706B2BEA1507933453 /* Pods-FastlaneDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRT6NHDX32;
 				INFOPLIST_FILE = FastlaneDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactionone.FastlaneDemo;
@@ -364,8 +512,10 @@
 		};
 		CDB5402B1DD6C81000F05E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42853825073C0690535D1538 /* Pods-FastlaneDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PRT6NHDX32;
 				INFOPLIST_FILE = FastlaneDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.interactionone.FastlaneDemo;
@@ -375,6 +525,7 @@
 		};
 		CDB5402D1DD6C81000F05E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AC8FA9CED99E75201F96DA /* Pods-FastlaneDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FastlaneDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,6 +537,7 @@
 		};
 		CDB5402E1DD6C81000F05E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369CAD414E543E9EC37DFA13 /* Pods-FastlaneDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FastlaneDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -414,6 +566,7 @@
 				CDB5402B1DD6C81000F05E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB5402C1DD6C81000F05E73 /* Build configuration list for PBXNativeTarget "FastlaneDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +575,7 @@
 				CDB5402E1DD6C81000F05E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
