@@ -30,6 +30,9 @@ platform :ios do
   desc "This will also make sure the profile is up to date"
   lane :beta do
     # match(type: "appstore") # more information: https://codesigning.guide
+    increment_version_number
+    commit_version_bump
+    push_to_git_remote
     cert
     sigh(adhoc: true)
     gym(scheme: "FastlaneDemo", export_method:"ad-hoc") # Build your app - more options available
@@ -37,6 +40,7 @@ platform :ios do
       groups: "swiftbengaluru",
       notes: "FastlaneDemo iOS Build"
     )
+    clean_build_artifacts
     #pilot
     # sh "your_script.sh"
     # You can also use other beta testing services here (run `fastlane actions`)
